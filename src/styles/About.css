@@ -1,0 +1,119 @@
+:root {
+  --accent: #ff6f61;
+  --bg: #0f0f0f;
+  --card: #1a1a1a;
+  --text: #f5f5f5;
+  --muted: #b0a999;
+}
+
+.about-section {
+  padding: 6rem 2rem;
+  color: var(--text);
+  background: var(--bg);
+  min-height: 100vh;
+}
+.section-title {
+  font-size: 5rem; /* increased from 4rem */
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 3rem;
+  background: linear-gradient(90deg, var(--accent), #ffa07a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-card {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-left {
+  flex: 1 1 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--accent);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-avatar:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(255, 111, 97, 0.4);
+}
+
+.about-right {
+  flex: 2 1 400px;
+  max-width: 700px;
+}
+
+.about-bio {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: var(--text);
+}
+
+.highlight {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.about-info {
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.skills h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--card);
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  box-shadow: 0 5px 15px rgba(255, 111, 97, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+}
+
+.skill-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(255, 111, 97, 0.5);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .about-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .about-right {
+    max-width: 100%;
+  }
+  .about-avatar {
+    margin-bottom: 2rem;
+  }
+}

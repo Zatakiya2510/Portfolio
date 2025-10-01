@@ -1,0 +1,52 @@
+.network-section {
+  background-color: var(--bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.network-title {
+  background: linear-gradient(90deg, var(--accent), #ffa07a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.network-icons {
+  display: flex;
+  gap: 3rem; /* spacing between icons */
+  justify-content: center;
+  flex-wrap: wrap; /* for smaller screens, icons can wrap */
+  margin-top: 1rem;
+}
+
+.network-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border: 3px solid;
+  border-radius: 50%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: var(--card);
+}
+
+.network-icons a:hover {
+  transform: scale(1.15);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .network-icons {
+    gap: 2rem;
+  }
+  .network-icons a {
+    width: 60px;
+    height: 60px;
+  }
+}
