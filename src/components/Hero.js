@@ -24,9 +24,9 @@ export default function Hero() {
           Hi, I'm <span className="text-[#6F5F7F]">Abhishek Zatakiya</span>
         </h1>
         <p className="text-lg md:text-xl text-[#4A4E69] leading-relaxed">
-          I'm a Results-Driven <span className="text-[#6F5F7F]">Full-Stack Developer</span> specializing in <span className="text-[#6F5F7F]">MERN stack</span>, <span className="text-[#6F5F7F]">React.js</span>, and <span className="text-[#6F5F7F]">.NET technologies</span>.
-          I build scalable, secure, and user-friendly web applications, passionate about solving real-world problems.
-          Experienced in developing full-stack platforms, <span className="text-[#6F5F7F]">machine learning-based applications</span>, and responsive UI solutions.
+          I'm a Results-Driven <span className="text-[#6F5F7F]">Full-Stack Developer</span> specializing in <span className="text-[#6F5F7F]">MERN stack</span>, <span className="text-[#6F5F7F]">React.js</span> and <span className="text-[#6F5F7F]">.NET technologies</span>.
+          I build scalable, secure and user-friendly web applications, passionate about solving real-world problems.
+          Experienced in developing full-stack platforms, <span className="text-[#6F5F7F]">machine learning-based applications</span> and responsive UI solutions.
         </p>
 
 
