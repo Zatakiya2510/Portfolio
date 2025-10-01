@@ -7,19 +7,19 @@ const services = [
     id: "01",
     icon: <FaCode />,
     title: "Full-Stack Development",
-    description: "Building scalable web apps with MERN & .NET — optimized for performance, security, and UX.",
+    description: "Building scalable web apps with MERN & .NET — optimized for performance, security and UX.",
   },
   {
     id: "02",
     icon: <FaPaintBrush />,
     title: "Frontend & UI/UX Design",
-    description: "Transforming ideas into elegant, responsive interfaces with React.js, CSS3, and modern design practices.",
+    description: "Transforming ideas into elegant, responsive interfaces with React.js, CSS3 and modern design practices.",
   },
   {
     id: "03",
     icon: <FaDatabase />,
     title: "Database Architecture",
-    description: "Designing and optimizing databases (MongoDB, MySQL) for reliability, speed, and seamless integration.",
+    description: "Designing and optimizing databases (MongoDB, MySQL) for reliability, speed and seamless integration.",
   },
   {
     id: "04",
@@ -31,7 +31,7 @@ const services = [
     id: "05",
     icon: <FaTools />,
     title: "DevOps & Deployment",
-    description: "Streamlining deployment with GitHub, CI/CD, API security (JWT), and hosting on Vercel, Render, & Netlify.",
+    description: "Streamlining deployment with GitHub, CI/CD, API security (JWT) and hosting on Vercel and Render.",
   },
 ];
 
