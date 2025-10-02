@@ -17,7 +17,7 @@ const projects = [
   {
     id: 2,
     title: 'Diabetes Prediction',
-    desc: 'Machine Learning web app using Random Forest and 6 other algorithms for disease prediction. Flask backend with interactive Bootstrap UI. Deployed on Render.',
+    desc: 'Machine Learning web app using Random Forest and 6 other algorithms for disease prediction. Flask backend with interactive Bootstrap UI design. Deployed on Render.',
     tech: ['Python', 'Scikit-learn', 'Flask', 'Bootstrap'],
     github: 'https://github.com/Zatakiya2510/health',
     live: 'https://healthp.onrender.com/login',

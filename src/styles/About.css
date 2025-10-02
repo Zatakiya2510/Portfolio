@@ -7,10 +7,16 @@
 }
 
 .about-section {
-  padding: 6rem 2rem;
-  color: var(--text);
-  background: var(--bg);
+  position: relative;
+  padding: 4rem 2rem;
+  background-image: url('../images/wave.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* ensures text is visible */
+  z-index: 1;
   min-height: 100vh;
+  overflow: hidden;
 }
 .section-title {
   font-size: 5rem; /* increased from 4rem */
